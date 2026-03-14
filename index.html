@@ -78,7 +78,7 @@ a:hover {
                 list.innerHTML = ''; // Clear the "Loading..." text
                 data.forEach(item => {
                     const li = document.createElement('li');
-                    li.innerHTML = `${item.artist}, <i><a href="${item.link}">${item.album}</a></i> (${item.release_year}), ${item.cat_no}`;
+                    li.innerHTML = `${item.artist}, <a href="${item.link}"><em>${item.album}</em></a> (${item.release_year}), ${item.cat_no}`;
                     list.appendChild(li);
                 });
             })
