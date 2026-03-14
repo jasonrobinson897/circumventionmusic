@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Circumvention Music | Official Site</title>
     <style>
-        /* Modern Reset and Layout Optimization */
         * { box-sizing: border-box; }
         body { 
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
@@ -22,7 +21,7 @@
 
         h2 { border-bottom: 1px solid #ccc; padding-bottom: 10px; margin-top: 40px; }
         
-        /* Optimization for List readability */
+        /* List readability */
         ul { list-style: none; padding: 0; }
         li { padding: 8px 0; border-bottom: 1px solid #eee; }
 
@@ -45,27 +44,8 @@
 
     <main>
         <h2>Album Releases</h2>
-        <ul>
-            <li>Jason Robinson, Tiresian Symmetry</li>
-            <li>Cosmologic, Eyes in the Back of My Head</li>
-            <li>Anthony Davis, Episteme</li>
-            <li>Scott Walton, Close Quarters</li>
-            <li>Harris Eisenstadt, Canada Day</li>
-            <li>Geoffrey Gallegos, Sound Portraits</li>
-            <li>Michael Dessen, Between Shadow and Space</li>
-            <li>Charles Sharp, West Coast Session</li>
-            <li>Gabe Hall-Rodrigues, Harmonic Explorations</li>
-            <li>Nathan Hubbard, Skeleton Key Orchestra</li>
-            <li>Kamau Kenyatta, Destiny</li>
-            <li>Justin Grinnell, Lost Coast</li>
-            <li>K.P. Devonich, Chamber Improvisations</li>
-            <li>Bill Lowe, Signifyin'</li>
-            <li>New Muse 4tet, First Impressions</li>
-            <li>Dada Trio, No Context</li>
-            <li>Triangulation, Live at the Loft</li>
-            <li>The Robinson/Dessen Duo, Vol 1</li>
-            <li>Cosmologic, Live in San Diego</li>
-            <li>Various Artists, Improvisation Collective Vol. 1</li>
+        <ul id="release-list">
+            <li>Loading releases...</li>
         </ul>
     </main>
 
@@ -73,5 +53,23 @@
         (c) 2026, Circumvention Music
     </footer>
 
+    <script>
+        // Fetches data from your JSON file and builds the list
+        fetch('releases.json')
+            .then(response => response.json())
+            .then(data => {
+                const list = document.getElementById('release-list');
+                list.innerHTML = ''; // Clear the "Loading..." text
+                data.forEach(item => {
+                    const li = document.createElement('li');
+                    li.innerHTML = `${item.artist}, <a href="${item.link}">${item.album}</a> (${item.cat_no})`;
+                    list.appendChild(li);
+                });
+            })
+            .catch(error => {
+                console.error('Error loading releases:', error);
+                document.getElementById('release-list').innerHTML = '<li>Unable to load releases.</li>';
+            });
+    </script>
 </body>
 </html>
