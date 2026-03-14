@@ -91,7 +91,7 @@ a:hover {
     <div class="footer-content">
         <img src="https://jasonrobinson897.github.io/circumventionmusic/Circumvention-Music-b&w-large_edited_edited.png" alt="Circumvention Music Logo" class="footer-logo">
         <p>Contact: info [at] circumventionmusic [dawt] com<br>
-        &copy; 2026, Circumvention Music. All rights reserved.</p>
+        &copy; <script>document.write(new Date().getFullYear());</script>, Circumvention Music. All rights reserved.</p>
     </div>
 </footer>
 
@@ -104,7 +104,7 @@ a:hover {
                 list.innerHTML = ''; // Clear the "Loading..." text
                 data.forEach(item => {
                     const li = document.createElement('li');
-                    li.innerHTML = `&middot ${item.artist}, <a href="${item.link}"><em>${item.album}</em></a> (${item.release_year}), ${item.cat_no}`;
+                    li.innerHTML = `&middot; ${item.artist}, <a href="${item.link}"><em>${item.album}</em></a> (${item.release_year}), ${item.cat_no}`;
                     list.appendChild(li);
                 });
             })
