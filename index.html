@@ -62,7 +62,7 @@
                 list.innerHTML = ''; // Clear the "Loading..." text
                 data.forEach(item => {
                     const li = document.createElement('li');
-                    li.innerHTML = `${item.artist}, <a href="${item.link}">${item.album}</a> (${item.cat_no})`;
+                    li.innerHTML = `${item.artist}, <a href="${item.link}">${item.album}</a> (${item.release_year}), ${item.cat_no}`;
                     list.appendChild(li);
                 });
             })
