@@ -21,24 +21,122 @@
     "link": "https://kevinpatton.bandcamp.com/album/floating-point"
   },
   {
-    "artist": "Cosmologic",
-    "album": "Eyes in the Back of My Head",
-    "release_year": "2010",
-    "cat_no": "CM-002",
-    "link": "https://jasonrobinson.com/cosmologic"
+    "artist": "Crepuscule Trio",
+    "album": "Unveil",
+    "release_year": "2009",
+    "cat_no": "056",
+    "link": "https://www.discogs.com/release/8665795-Crepuscule-Trio-Unveil?srsltid=AfmBOopb68whGgwQvnPmKO9c1_oGLLBKUOKzUMdIT4hjkX7jaYLjW27l"
+  },
+  {
+    "artist": "Sound for the Organization of Society",
+    "album": "Poem of the Underground",
+    "release_year": "2009",
+    "cat_no": "055",
+    "link": "https://sfos.bandcamp.com/album/poem-of-the-underground"
+  },
+  {
+    "artist": "Dana Reason Trio",
+    "album": "Revealed",
+    "release_year": "2009",
+    "cat_no": "054",
+    "link": "https://www.discogs.com/release/8492657-Dana-Reason-Trio-Revealed"
   },
   {
     "artist": "Jason Robinson",
-    "album": "Tiresian Symmetry",
-    "release_year": "2014",
-    "cat_no": "CM-001",
-    "link": "https://jasonrobinson.com/tiresian"
+    "album": "Cerberus Rising",
+    "release_year": "2009",
+    "cat_no": "SA-082",
+    "link": "https://jasonrobinson.bandcamp.com/music"
+  },
+  {
+    "artist": "David Borgo",
+    "album": "Initial Conditions",
+    "release_year": "2008",
+    "cat_no": "053",
+    "link": "https://davidborgo.bandcamp.com/album/initial-conditions"
+  },
+  {
+    "artist": "Bob and Ellen Weller with Mark Dresser",
+    "album": "Point of Contact",
+    "release_year": "2008",
+    "cat_no": "052",
+    "link": "https://www.discogs.com/release/24214088-Bob-Weller-and-Ellen-Weller-with-Mark-Dresser-Point-Of-Contact"
+  },
+  {
+    "artist": "Rick Helzer & John Stowell",
+    "album": "Friendship and Remembrance",
+    "release_year": "2008",
+    "cat_no": "051",
+    "link": "https://www.discogs.com/release/15420345-Rick-Helzer-John-Stowell-Friendship-And-Remembrance"
+  },
+  {
+    "artist": "Jason Robinson",
+    "album": "Fingerprint",
+    "release_year": "2008",
+    "cat_no": "050",
+    "link": "https://jasonrobinson.bandcamp.com/album/fingerprint"
+  },
+  {
+    "artist": "David Borgo",
+    "album": "Chance, Discovery and Design",
+    "release_year": "2008",
+    "cat_no": "MM-221",
+    "link": "https://www.metaljazz.com/2008/02/dvdcd_review_david_borgo.php"
+  },
+  {
+    "artist": "Adnan Marquez-Borbon",
+    "album": "The Paradox of Continuity",
+    "release_year": "2007",
+    "cat_no": "049",
+    "link": "https://adnanmarquezborbon.wordpress.com/music/the-paradox-of-continuity/"
+  },
+  {
+    "artist": "Michael Dessen",
+    "album": "lineal",
+    "release_year": "2007",
+    "cat_no": "048",
+    "link": "https://mdessen.com/portfolio/lineal/"
+  },
+  {
+    "artist": "ARC Trio",
+    "album": "Triptych Mirror",
+    "release_year": "2007",
+    "cat_no": "047",
+    "link": "https://www.discogs.com/release/24321287-ARC-Trio-Triptych-Mirror"
+  },
+  {
+    "artist": "Cross Border Trio",
+    "album": "New Directions",
+    "release_year": "2007",
+    "cat_no": "046",
+    "link": "https://jasonrobinson.bandcamp.com/album/new-directions"
+  },
+  {
+    "artist": "Trummerflora",
+    "album": "Rubble 2",
+    "release_year": "2006",
+    "cat_no": "A/C-202 (joint release with Accretions)",
+    "link": "https://accretions.bandcamp.com/album/rubble-2"
   },
   {
     "artist": "Cosmologic",
-    "album": "Eyes in the Back of My Head",
-    "release_year": "2010",
-    "cat_no": "CM-002",
-    "link": "https://jasonrobinson.com/cosmologic"
+    "album": "III",
+    "release_year": "2005",
+    "cat_no": "045",
+    "link": "https://jasonrobinson.bandcamp.com/album/iii"
+  },
+  {
+    "artist": "Bob and Danny Weller",
+    "album": "Tree of Thorns",
+    "release_year": "2005",
+    "cat_no": "044",
+    "link": "https://presidiosentinel.com/music-2/danny-weller-and-third-story"
+  },
+  {
+    "artist": "Curtis Glatter / Nathan Hubbard",
+    "album": "Rivulet",
+    "release_year": "2005",
+    "cat_no": "043",
+    "link": "https://www.discogs.com/release/3096185-Curtis-Glatter-Nathan-Hubbard-Rivulet"
   }
 ]
