@@ -30,15 +30,15 @@ footer {
 
 .footer-content {
     display: flex;
-    justify-content: space-between; /* Pushes content to opposite sides */
-    align-items: center;            /* Vertically centers them */
+    flex-direction: column;      /* Stacks text and image vertically */
+    align-items: flex-end;       /* Aligns everything to the right side */
+    gap: 10px;                   /* Adds space between the text and the image */
     width: 100%;
 }
 
 .footer-logo {
     width: 200px;
     height: auto;
-    display: block;
 }
         
         /* Removes the default link color and blue underline */
