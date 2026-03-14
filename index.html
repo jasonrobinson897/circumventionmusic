@@ -22,6 +22,25 @@
 
         h2 { border-bottom: 1px solid #ccc; padding-bottom: 10px; margin-top: 40px; }
 
+footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 2px solid #333;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; /* Pushes content to opposite sides */
+    align-items: center;            /* Vertically centers them */
+    width: 100%;
+}
+
+.footer-logo {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+        
         /* Removes the default link color and blue underline */
 a {
     color: inherit;            /* Matches the color of the text around it */
@@ -64,9 +83,13 @@ a:hover {
         </ul>
     </main>
 
-    <footer>
-        &copy; 2026, Circumvention Music. All rights reserved.
-    </footer>
+   <footer>
+    <div class="footer-content">
+        <"https://jasonrobinson897.github.io/circumventionmusic/Circumvention-Music-b&w-large_edited_edited.png" alt="Circumvention Music Logo" class="footer-logo">
+        <p>&copy; 2026, Circumvention Music</p>
+        <p>Contact: info [at] circumventionmusic [dawt] com</p>
+    </div>
+</footer>
 
     <script>
         // Fetches data from your JSON file and builds the list
